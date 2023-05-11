@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="685.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.icet.burger_shop.controller.ViewOneOrderController">
+   <children>
+      <AnchorPane prefHeight="79.0" prefWidth="612.0" style="-fx-background-color: #74b9ff;">
+         <children>
+            <Text layoutX="244.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Order">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="39.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order ID   :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtOrderId" layoutX="190.0" layoutY="122.0" onAction="#loadDataOnAction" prefHeight="42.0" prefWidth="221.0" />
+      <Text layoutX="39.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer ID   :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Name  :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Burger Quntity  :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bill Value  :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Status  :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="lblCustId" layoutX="245.0" layoutY="207.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCustName" layoutX="245.0" layoutY="267.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBurQty" layoutX="245.0" layoutY="336.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBillValue" layoutX="245.0" layoutY="405.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblOrderStatus" layoutX="245.0" layoutY="469.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
